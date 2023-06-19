@@ -1,0 +1,29 @@
+SENTENCIAS			(if, for, switch, while)	
+					sentencias que no son asignables a variables	
+EXPRESIONES 		(2+3, a<b)
+					son expresiones que se pueden guardar en una variable
+
+NOTA: para eliminar los problemas de las sentencias (almenos del IF) se usa TERNARIOS
+
+OPERACIONES CON LISTAS 
+	SUMA:			la suma es una operacion especial cuando la lista es NUMERICA
+	MULTI:			lo mismo que la suma todo en terminos de cabecera y cola
+	saco la cabecera y hago algo con la cola XD
+	
+	
+FUNCIONES CON VARIOS ARGUMENTOS:	
+	Se puede definir interfaces para automatizar la firma de las funciones 
+	BINARY OPERATOR:	Funcion<T,Funcion<T,T>>
+
+FUNCION DE ORDEN SUPERIOR:
+	Funcion que toma como argumento otra funcion
+	
+COMPOSICION:
+	f(x) 	= 3 x
+	g(x) 	= x^2
+	fog(x) 	= 9 x^2 	
+	Function <Function <Int , Int> , Function < Function <Function <Int , Int> , Function <Int , Int>>>>
+	          --------------------              ------------------------------    ------------------
+	                  f                                       g                          fog
+	               
+	=>  F<F<I,I>,F<F<I,I>,F<I,I>>> comp = f -> g -> -> x -> f.aply(g.aply(x))
